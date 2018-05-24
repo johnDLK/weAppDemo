@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/detail/index",
+    "pages/detail/media",
+    "pages/map/weather",
+    "pages/map/map",
+    "pages/medical-card/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "HOME"
+      },
+      {
+        "pagePath": "pages/map/weather",
+        "iconPath": "image/yong.jpg",
+        "selectedIconPath": "image/yong.jpg",
+        "text": "天气"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "image/yong.jpg",
+        "selectedIconPath": "image/yong.jpg",
+        "text": "地图"
+      }
+    ]
+  }
+}

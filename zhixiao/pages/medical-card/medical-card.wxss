@@ -1,0 +1,4 @@
+/* pages/medical-card/medical-card.wxss */
+.mc-form .input-group {
+    padding: 15px 0;
+}

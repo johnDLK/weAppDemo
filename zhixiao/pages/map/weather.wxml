@@ -1,0 +1,37 @@
+<view>
+  <view>
+    <view>
+      <image src="../../image/cat.jpg" mode="aspectFill"></image>
+    </view>
+    <view>
+      <view>
+        <view class="weui-cells weui-cell_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view>
+              <view>城市</view>
+            </view>
+            <view>
+              <input type="text" disabled='{{true}}' value="{{city}}" name="city"></input>
+            </view>
+          </view>
+          <view class="weui-cell weui-cell_input">
+            <view>
+              <view>天气情况</view>
+            </view>
+            <view>
+              <input type="text" disabled='{{true}}' value="{{weather}}" name="latitude"></input>
+            </view>
+          </view>
+          <view class="weui-cell weui-cell_input">
+            <view>
+              <view>气温</view>
+            </view>
+            <view>
+              <input type="text" disabled='{{true}}' value="{{temperature}}°" name="NAME"></input>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

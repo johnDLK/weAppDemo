@@ -1,0 +1,6 @@
+<!--pages/detail/index.wxml-->
+<text>pages/detail/index.wxml</text>
+
+<view>{{article.title}}</view>
+<view>{{article.create_at}}</view>
+<view>{{article.content}}</view>

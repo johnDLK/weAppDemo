@@ -1,0 +1,6 @@
+<view wx:if="{{!isShowMedicalCard}}">
+  <button size="mini" bindtap="showMedicalCard">创建医疗急救卡</button>
+</view>
+<view wx:else>
+  <medical-card formData="{{formData}}"></medical-card>
+</view>

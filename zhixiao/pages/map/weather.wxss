@@ -1,0 +1,6 @@
+/* pages/map/weather.wxss */
+
+.weui-cell > view {
+  display: inline-flex;
+  margin: 0 1em;
+}
